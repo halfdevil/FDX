@@ -537,9 +537,6 @@
     <None Include="Assets\Programs\terrain.vert.glsl" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Screenshot.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
