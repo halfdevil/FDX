@@ -1,0 +1,10 @@
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/install/local.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/list_install_components.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/edit_cache.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/rebuild_cache.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/package_source.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/package.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/dist.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/install/strip.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/install.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/ThirdParty/freetype-2.8.1/build/CMakeFiles/freetype.dir

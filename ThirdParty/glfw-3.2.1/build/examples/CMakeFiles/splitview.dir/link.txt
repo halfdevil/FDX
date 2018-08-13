@@ -1,0 +1,1 @@
+/usr/bin/cc  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/splitview.dir/splitview.c.o CMakeFiles/splitview.dir/__/deps/glad.c.o  -o splitview.app/Contents/MacOS/splitview ../src/libglfw.3.2.dylib 

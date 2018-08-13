@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jiten\source\repos\FDX\ThirdParty\gl3w-dist\src\gl3w.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jiten\source\repos\FDX\ThirdParty\gl3w-dist\include\GL\gl3w.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jiten\source\repos\FDX\ThirdParty\gl3w-dist\include\GL\glcorearb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\gl3w-dist\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3644B28A-45E8-3BC9-AD41-73C8B15D7AC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C67A1174-21CC-3053-8AC8-575D7BDB7562}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build64\CMakeFiles\527d2fadb93dc6823d25baf2c15000ba\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3A43E38C-0094-31C6-8B98-C5693BAFF0C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

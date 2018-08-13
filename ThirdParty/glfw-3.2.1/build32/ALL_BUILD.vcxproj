@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{964DCA15-E241-3DD7-9D7A-E7C23F36707D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1 -BC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32 --check-stamp-file C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;E:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1 -BC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32 --check-stamp-file C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;E:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1 -BC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32 --check-stamp-file C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;E:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"E:\Program Files\CMake\bin\cmake.exe" -HC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1 -BC:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32 --check-stamp-file C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/build32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/jiten/source/repos/FDX/ThirdParty/glfw-3.2.1/CMakeLists.txt;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystem.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInitialize.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerId.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCompilerIdDetection.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\GNU-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\HP-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TI-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\XL-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\zOS-C-DetermineCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CompilerId\VS-10.vcxproj.in;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeFindBinUtils.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeSystemSpecificInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeGenericSystem.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeInitializeConfigs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\WindowsPaths.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeLanguageInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC-C.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\Platform\Windows-MSVC.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeRCInformation.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestRCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCommonLanguageInclude.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeTestCompilerCommon.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompilerABI.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeParseImplicitLinkInfo.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompilerABI.c;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeDetermineCompileFeatures.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakeCCompiler.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\3.11.3\CMakeCCompiler.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindThreads.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckLibraryExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckSymbolExists.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CheckIncludeFile.c.in;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMake\modules\FindVulkan.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindDoxygen.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageHandleStandardArgs.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\FindPackageMessage.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\CMakePackageConfigHelpers.cmake;E:\Program Files\CMake\share\cmake-3.11\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3Config.cmake.in;E:\Program Files\CMake\share\cmake-3.11\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw_config.h.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\src\glfw3.pc.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\cmake_uninstall.cmake.in;C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\ZERO_CHECK.vcxproj">
+      <Project>{E7592D21-D08A-3CFA-81CA-20CDE6A23881}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\boing.vcxproj">
+      <Project>{EF8934A1-5369-3E6C-BFC1-F969A0CC24D5}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\clipboard.vcxproj">
+      <Project>{3E7EECD1-ECF8-3A7C-9A95-A1C6704DF745}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\cursor.vcxproj">
+      <Project>{29187A8F-3109-3FFE-B430-3EAB6904B755}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\empty.vcxproj">
+      <Project>{733D2756-46A1-3089-A30A-C65F0C299F90}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\events.vcxproj">
+      <Project>{E7278637-86A6-3E32-97C8-19A9B6F357D8}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\gamma.vcxproj">
+      <Project>{1C1B9B72-CB37-36DC-9F78-2F9AB64153D9}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\gears.vcxproj">
+      <Project>{A5B0F3CB-5BB1-3545-BACC-DADF74EF156B}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\src\glfw.vcxproj">
+      <Project>{C6747632-FC55-36AD-9758-A5CEFCB7159D}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\glfwinfo.vcxproj">
+      <Project>{A98DFF43-2519-3E8C-9109-5CA71A2E5289}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\heightmap.vcxproj">
+      <Project>{8B613C81-FC75-38D1-9A41-D787F63FD5AA}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\icon.vcxproj">
+      <Project>{BF344506-FCEF-3914-B310-B804C749AA46}</Project>
+      <Name>icon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\iconify.vcxproj">
+      <Project>{978EBBD2-024F-3B58-806B-D9CEB5330EB4}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\joysticks.vcxproj">
+      <Project>{5FB2D7F9-2E63-3214-BA4C-6ED33A635E38}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\monitors.vcxproj">
+      <Project>{316C4506-A813-3A77-A1DF-54B48E7E0F09}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\msaa.vcxproj">
+      <Project>{D2521590-CAA5-357D-8F8F-27840299C2F3}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\particles.vcxproj">
+      <Project>{685B560F-3F0E-3EEA-B862-66304342E5D9}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\reopen.vcxproj">
+      <Project>{088B300C-256C-3A1C-8466-5ED37F417C93}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\sharing.vcxproj">
+      <Project>{C360D67D-FB8F-3C4A-97A4-636801D8AD46}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\simple.vcxproj">
+      <Project>{1DFA529D-E933-3FF3-9F96-05970B3E6C35}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\splitview.vcxproj">
+      <Project>{92C34812-0663-3EF9-B232-855369D4F066}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\tearing.vcxproj">
+      <Project>{3FBCB70E-147D-38CE-8707-DB320DF26864}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\threads.vcxproj">
+      <Project>{17D52D81-684B-3488-A5A7-DA1B94771AD9}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\timeout.vcxproj">
+      <Project>{D7C5852F-C462-3AC4-98FA-5871347B9DAB}</Project>
+      <Name>timeout</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\title.vcxproj">
+      <Project>{8B36A574-A555-36EE-B217-9FF1A0DDAA18}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\examples\wave.vcxproj">
+      <Project>{430209B9-91D1-3DC4-BBDC-28F75815D53C}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jiten\source\repos\FDX\ThirdParty\glfw-3.2.1\build32\tests\windows.vcxproj">
+      <Project>{9BBEF3CA-5957-3430-AD9B-B0BF41991F84}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Assets\Programs">
+      <UniqueIdentifier>{57d5a91f-b84f-41db-8cb2-38ece588ad1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\EmptyWindow.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\EmptyWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Programs\canvas.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\canvas.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\debug.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\debug.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\rect.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\rect.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\sprite.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\sprite.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\terrain.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\terrain.tcs.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\terrain.tes.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\terrain.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

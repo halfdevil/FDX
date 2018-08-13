@@ -1,0 +1,3 @@
+/Volumes/Untitled/Users/jiten/source/repos/FDX/Engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/Engine/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Untitled/Users/jiten/source/repos/FDX/Engine/cmake-build-debug/CMakeFiles/Engine.dir

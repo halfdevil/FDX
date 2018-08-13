@@ -1,0 +1,3 @@
+C:/Users/jiten/source/repos/FDX/ThirdParty/gl3w-dist/build32/CMakeFiles/gl3w.dir
+C:/Users/jiten/source/repos/FDX/ThirdParty/gl3w-dist/build32/CMakeFiles/ALL_BUILD.dir
+C:/Users/jiten/source/repos/FDX/ThirdParty/gl3w-dist/build32/CMakeFiles/ZERO_CHECK.dir

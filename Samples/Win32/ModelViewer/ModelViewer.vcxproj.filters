@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Assets\Programs">
+      <UniqueIdentifier>{200599d3-7cf6-431d-ad86-7c0bd30ba22b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ModelViewer.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ModelViewer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Programs\skybox.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\skybox.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_diffuse.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_diffuse.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_light.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_light.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_shadow.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\model_shadow.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\quad_postprocessor.vert.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+    <None Include="Assets\Programs\quad_postprocessor.frag.glsl">
+      <Filter>Assets\Programs</Filter>
+    </None>
+  </ItemGroup>
+</Project>

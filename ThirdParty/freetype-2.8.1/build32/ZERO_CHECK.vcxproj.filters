@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\freetype-2.8.1\build32\CMakeFiles\5e7f845632f26b99b31cb82de0b7f773\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{84BC39C6-A1FD-3F9A-A4F1-AC5C4CA0AEBB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

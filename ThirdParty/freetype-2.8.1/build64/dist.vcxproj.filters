@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\freetype-2.8.1\build64\CMakeFiles\cb1d72b877af628c8495f28ec0417129\dist.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jiten\source\repos\FDX\ThirdParty\freetype-2.8.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jiten\source\repos\FDX\ThirdParty\freetype-2.8.1\build64\CMakeFiles\dist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E8D29346-38BD-39FD-92E0-FDEB6638099F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

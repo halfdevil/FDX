@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<view_container>
+	<view_layout name="main_layout"
+		type="0"
+		x="1"
+		y="1"
+		width="1020"
+		height="758">	
+	</view_layout>	
+	<panel name="lower_panel"
+		x="0"
+		y="34"
+		width="0"
+		height="700"
+		align_v="2"
+		fill_mode="1">		
+		<skin name="panel2_skin">
+			<materials active="0">
+				<material name="panel2_skin_material"
+					type="0"
+					color="0 0 0 0">
+					<material_parts>
+						<material_part
+							type="1"
+							border_type="15"
+							border_width="1">
+							<border_color
+								type="1"
+								color="0 0 0 1">							
+							</border_color>
+							<border_color
+								type="2"
+								color="0 0 0 1">							
+							</border_color>
+							<border_color
+								type="4"
+								color="0 0 0 1">							
+							</border_color>
+							<border_color
+								type="8"
+								color="0 0 0 1">							
+							</border_color>
+						</material_part>
+					</material_parts>					
+				</material>
+			</materials>
+		</skin>
+		<button
+		    x="4"
+			y="4"
+			width="70"
+			height="35"
+			fill_mode="0"
+			text="OK">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						color="0 0 1 1">	
+						<material_parts>	
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0 0 0 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="2"
+						color="0 1 0 1">
+						<material_parts>
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0 0 0 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="3"
+						color="0 1 0 1">
+						<material_parts>
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+				</materials>
+			</skin>
+		</button>
+		<button
+		    x="80"
+			y="4"
+			width="70"
+			height="35"
+			fill_mode="0"
+			text="Cancel">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						color="0 0 1 1">	
+						<material_parts>	
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0 0 0 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="2"
+						color="0 1 0 1">
+						<material_parts>
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0 0 0 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="3"
+						color="0 1 0 1">
+						<material_parts>
+							<material_part
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								font_size="14"
+								font_color="1 1 1 1">
+							</material_part>
+							<material_part
+								type="1"
+								border_type="15"
+								border_width="2">
+								<border_color
+									type="1"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="2"
+									color="0 0 0 1">							
+								</border_color>
+								<border_color
+									type="4"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+								<border_color
+									type="8"
+									color="0.7 0.7 0.7 1">							
+								</border_color>
+							</material_part>
+						</material_parts>						
+					</material>
+				</materials>
+			</skin>
+		</button>
+		<!--
+		<imageview
+		    x="156"
+			y="4"
+			width="256"
+			height="256"
+			fill_mode="0"
+			image="/Assets/Textures/user.png">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						background_color="0 0 1 1">					
+					</material>
+					<material name="panel2_button1_skin_material3"
+						type="2"
+						background_color="0 0 0 1">					
+					</material>
+				</materials>
+			</skin>
+		</imageview>
+		<label
+		    x="418"
+			y="4"
+			width="200"
+			height="30"
+			fill_mode="0"
+			align_h="2"
+			text="This is a Label">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						font="/Assets/Fonts/arial.ttf"
+						text_size="12"
+						text_color="1 1 1 1"
+						background_color="0 0 1 1">					
+					</material>
+					<material name="panel2_button1_skin_material3"
+						type="2"
+						background_color="0 0 0 1">					
+					</material>
+				</materials>
+			</skin>
+		</label>-->
+	</panel>
+	<!--<panel
+		x="0"
+		y="0"
+		width="0"
+		height="29"
+		align_v="1"
+		fill_mode="1">
+		<skin name="panel1_skin">
+			<materials active="0">
+				<material name="panel1_skin_material"
+					type="0"
+					background_color="0 0 0 1">
+				</material>
+			</materials>
+		</skin>
+		<menu
+		    x="1"
+			y="1"
+			width="70"
+			height="26"
+			fill_mode="0"
+			text="Menu">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						font="/Assets/Fonts/arial.ttf"
+						text_size="12"
+						text_color="1 1 1 1"
+						background_color="0 0 1 1">					
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="1"
+						font="/Assets/Fonts/arial.ttf"
+						text_size="12"
+						text_color="1 1 1 1"
+						background_color="0 1 0 1">					
+					</material>
+					<material name="panel2_button1_skin_material3"
+						type="4"
+						background_color="0 0 0 1">					
+					</material>
+				</materials>
+			</skin>		
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 1">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 2">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 21">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 22">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+					<menuitem
+						x="0"
+						y="0"
+						width="100"
+						height="26"
+						fill_mode="0"
+						text="Menu Item 221">
+						<skin name="panel2_button1_skin">
+							<materials active="0">
+								<material name="panel2_button1_skin_material1"
+									type="0"
+									font="/Assets/Fonts/arial.ttf"
+									text_size="12"
+									text_color="1 1 1 1"
+									background_color="0 0 1 1">					
+								</material>
+								<material name="panel2_button1_skin_material2"
+									type="1"
+									font="/Assets/Fonts/arial.ttf"
+									text_size="12"
+									text_color="1 1 1 1"
+									background_color="0 1 0 1">					
+								</material>
+								<material name="panel2_button1_skin_material3"
+									type="4"
+									background_color="0 0 0 1">					
+								</material>
+							</materials>
+						</skin>
+					</menuitem>
+				</menuitem>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 3">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 31">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 32">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 4">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+			</menuitem>
+		</menu>		
+		<menu
+		    x="73"
+			y="1"
+			width="70"
+			height="26"
+			fill_mode="0"
+			text="Menu">
+			<skin name="panel2_button1_skin">
+				<materials active="0">
+					<material name="panel2_button1_skin_material1"
+						type="0"
+						font="/Assets/Fonts/arial.ttf"
+						text_size="12"
+						text_color="1 1 1 1"
+						background_color="0 0 1 1">					
+					</material>
+					<material name="panel2_button1_skin_material2"
+						type="1"
+						font="/Assets/Fonts/arial.ttf"
+						text_size="12"
+						text_color="1 1 1 1"
+						background_color="0 1 0 1">					
+					</material>
+					<material name="panel2_button1_skin_material3"
+						type="4"
+						background_color="0 0 0 1">					
+					</material>
+				</materials>
+			</skin>		
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 1">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 2">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 21">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 22">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+					<menuitem
+						x="0"
+						y="0"
+						width="100"
+						height="26"
+						fill_mode="0"
+						text="Menu Item 221">
+						<skin name="panel2_button1_skin">
+							<materials active="0">
+								<material name="panel2_button1_skin_material1"
+									type="0"
+									font="/Assets/Fonts/arial.ttf"
+									text_size="12"
+									text_color="1 1 1 1"
+									background_color="0 0 1 1">					
+								</material>
+								<material name="panel2_button1_skin_material2"
+									type="1"
+									font="/Assets/Fonts/arial.ttf"
+									text_size="12"
+									text_color="1 1 1 1"
+									background_color="0 1 0 1">					
+								</material>
+								<material name="panel2_button1_skin_material3"
+									type="4"
+									background_color="0 0 0 1">					
+								</material>
+							</materials>
+						</skin>
+					</menuitem>
+				</menuitem>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 3">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 31">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+				<menuitem
+					x="0"
+					y="0"
+					width="100"
+					height="26"
+					fill_mode="0"
+					text="Menu Item 32">
+					<skin name="panel2_button1_skin">
+						<materials active="0">
+							<material name="panel2_button1_skin_material1"
+								type="0"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 0 1 1">					
+							</material>
+							<material name="panel2_button1_skin_material2"
+								type="1"
+								font="/Assets/Fonts/arial.ttf"
+								text_size="12"
+								text_color="1 1 1 1"
+								background_color="0 1 0 1">					
+							</material>
+							<material name="panel2_button1_skin_material3"
+								type="4"
+								background_color="0 0 0 1">					
+							</material>
+						</materials>
+					</skin>
+				</menuitem>
+			</menuitem>
+			<menuitem
+				x="0"
+				y="0"
+				width="100"
+				height="26"
+				fill_mode="0"
+				text="Menu Item 4">
+				<skin name="panel2_button1_skin">
+					<materials active="0">
+						<material name="panel2_button1_skin_material1"
+							type="0"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 0 1 1">					
+						</material>
+						<material name="panel2_button1_skin_material2"
+							type="1"
+							font="/Assets/Fonts/arial.ttf"
+							text_size="12"
+							text_color="1 1 1 1"
+							background_color="0 1 0 1">					
+						</material>
+						<material name="panel2_button1_skin_material3"
+							type="4"
+							background_color="0 0 0 1">					
+						</material>
+					</materials>
+				</skin>
+			</menuitem>
+		</menu>
+	</panel>-->
+</view_container>
