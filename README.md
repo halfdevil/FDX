@@ -6,7 +6,6 @@ FDX is an open-source, cross-platform, C++ game framework/engine for creating 2D
 - [Windows]
 - [MacOSX]
 - [Linux]
-- [iOS]
 - [Android]
 
 ## License
