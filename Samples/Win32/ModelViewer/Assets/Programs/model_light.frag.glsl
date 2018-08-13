@@ -90,13 +90,13 @@ vec4 PointLight(int piIdx)
 	float lfSpecular = max(0, pow(dot(lNormal, lHvec), 
 		uMaterial.SpecPower) * lfAttenuation);
 
-	if (fragIn.ShadowCoord.w > 1.0f)
+	/*if (fragIn.ShadowCoord.w > 1.0f)
 	{
 		float lfShadow = textureProj(uShadowMap,
 			fragIn.ShadowCoord);
 
 		lfDiffuse = mix(lfDiffuse, lfDiffuse * lfShadow, 0.5f);
-	}
+	}*/
 
 	return (lfDiffuse * uLights[piIdx].Color * 
 		texture(uDiffuseMap, fragIn.TexCoord)) +

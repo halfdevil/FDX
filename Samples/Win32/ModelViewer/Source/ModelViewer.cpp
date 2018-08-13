@@ -10,7 +10,7 @@ EResult CModelViewer::OnLoadContent()
 	mSceneTraverser = std::make_unique<CBasicSceneTraverser>();
 	mRenderQueue = std::make_unique<CRenderQueue>();
 
-	lResult = mRenderQueue->Create(GetGraphicsDevice());
+	lResult = mRenderQueue->Create(GetGraphicsDevice()); 
 	if (lResult != EResult::Success)
 	{
 		LOG_ERROR("Render Queue create failed");
@@ -48,7 +48,7 @@ EResult CModelViewer::OnLoadContent()
 
 		mPointLight1 = std::make_unique<CPointLight>();
 		mPointLight1->SetColor(CColor4F(1.0f, 1.0f, 1.0f));
-		mPointLight1->SetPosition(CVector3F(0.0f, 100.0f, -10.0f));
+		mPointLight1->SetPosition(CVector3F(0.0f, 100.0f, -100.0f));
 		mPointLight1->SetConstantAtt(1.0f);
 		mPointLight1->SetLinearAtt(0.5f);
 		mPointLight1->SetQuadraticAtt(0.2f);
@@ -93,6 +93,7 @@ EResult CModelViewer::OnLoadContent()
 
 			mQuadPostProcessor->SetTexture(mPointLight1->
 				GetShadowMap()->GetTexture());*/
+			GetWindow()->SetTitle("FDX: Model Viewer");
 		}
 	}
 

@@ -1261,4 +1261,10 @@
       <Filter>Assets\Programs</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Screenshot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
 </Project>
