@@ -17,8 +17,8 @@ FDX is an open-source, cross-platform, C++ game framework/engine for creating 2D
 - Fully extensible animation system with skeletal character animation.
 - Full vector math library with 2D/3D math and visibility culling.
 - Mouse and keyboard support
-- Deferred shading support (comming soon)
-- Editor (comming soon)
+- Deferred shading support (coming soon)
+- Editor (coming soon)
 
 ## License
 Open-source under [Apache 2.0 license](http://www.tldrlegal.com/license/apache-license-2.0-%28apache-2.0%29).
